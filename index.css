@@ -161,14 +161,19 @@ footer .icons svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .index .home .title {
   font-size: 7.5rem;
-  align-self: start;
+  align-self: flex-start;
   display: flex;
   gap: 10px;
+  text-align: left;
 }
 
 .index .home .title .download-app {
@@ -203,6 +208,8 @@ footer .icons svg {
   margin-top: 15px;
   font-size: 3rem;
   line-height: 1.5;
+  text-align: left;
+  max-width: 100%;
 }
 
 .index .home .description.dim {
